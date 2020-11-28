@@ -14,6 +14,10 @@
 		03733287256D9B8C006502A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03733286256D9B8C006502A6 /* Assets.xcassets */; };
 		0373328A256D9B8C006502A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03733288256D9B8C006502A6 /* LaunchScreen.storyboard */; };
 		03733297256DA0B7006502A6 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03733296256DA0B7006502A6 /* CategoryCell.swift */; };
+		0373329D256DA4E8006502A6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373329C256DA4E8006502A6 /* Category.swift */; };
+		037332A0256DA6FB006502A6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373329F256DA6FB006502A6 /* DataService.swift */; };
+		037332A32571AB2F006502A6 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037332A22571AB2F006502A6 /* ProductCell.swift */; };
+		037332A62571E89F006502A6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037332A52571E89F006502A6 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		03733289256D9B8C006502A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0373328B256D9B8C006502A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03733296256DA0B7006502A6 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		0373329C256DA4E8006502A6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		0373329F256DA6FB006502A6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		037332A22571AB2F006502A6 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		037332A52571E89F006502A6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,40 +66,20 @@
 		0373327C256D9B8C006502A6 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
-				03733295256DA051006502A6 /* View */,
-				03733294256DA047006502A6 /* Model */,
-				03733293256DA031006502A6 /* Controllers */,
 				0373327D256D9B8C006502A6 /* AppDelegate.swift */,
+				03733296256DA0B7006502A6 /* CategoryCell.swift */,
+				03733281256D9B8C006502A6 /* CategoryVC.swift */,
 				0373327F256D9B8C006502A6 /* SceneDelegate.swift */,
 				03733283256D9B8C006502A6 /* Main.storyboard */,
 				03733286256D9B8C006502A6 /* Assets.xcassets */,
 				03733288256D9B8C006502A6 /* LaunchScreen.storyboard */,
 				0373328B256D9B8C006502A6 /* Info.plist */,
+				0373329C256DA4E8006502A6 /* Category.swift */,
+				0373329F256DA6FB006502A6 /* DataService.swift */,
+				037332A22571AB2F006502A6 /* ProductCell.swift */,
+				037332A52571E89F006502A6 /* Product.swift */,
 			);
 			path = "coder-swag";
-			sourceTree = "<group>";
-		};
-		03733293256DA031006502A6 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				03733281256D9B8C006502A6 /* CategoryVC.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		03733294256DA047006502A6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		03733295256DA051006502A6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				03733296256DA0B7006502A6 /* CategoryCell.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				03733282256D9B8C006502A6 /* CategoryVC.swift in Sources */,
+				037332A62571E89F006502A6 /* Product.swift in Sources */,
+				0373329D256DA4E8006502A6 /* Category.swift in Sources */,
 				0373327E256D9B8C006502A6 /* AppDelegate.swift in Sources */,
+				037332A0256DA6FB006502A6 /* DataService.swift in Sources */,
 				03733280256D9B8C006502A6 /* SceneDelegate.swift in Sources */,
+				037332A32571AB2F006502A6 /* ProductCell.swift in Sources */,
 				03733297256DA0B7006502A6 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
